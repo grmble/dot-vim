@@ -28,6 +28,8 @@ if executable('coffeetags')
         \ }
   endif
 
+set pastetoggle=<F2>
+
 nmap <F5> :w<CR>:make<CR><CR>:cw<CR>
 nmap <F7> :NERDTree<CR>
 nmap <F8> :TagbarToggle<CR>
